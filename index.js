@@ -12,7 +12,7 @@ client.once("ready", () => {
 });
 
 client.on("guildMemberAdd", async member => {
-  const role = member.guild.roles.cache.get("ここにロールID");
+  const role = member.guild.roles.cache.get("1467196041320333355");
   if (role) {
     await member.roles.add(role);
   }
